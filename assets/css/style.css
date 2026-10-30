@@ -46,7 +46,8 @@ p { margin: 0 0 1em; }
   border-bottom: 1px solid var(--border);
 }
 .nav { display: flex; align-items: center; justify-content: space-between; height: var(--nav-h); }
-.brand { font-weight: 700; font-size: 1.1rem; color: var(--text); letter-spacing: .02em; }
+.brand { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 1.2rem; color: var(--text); letter-spacing: .02em; }
+.brand .logo { width: 1.3em; height: 1.3em; color: var(--accent); }
 .brand:hover { text-decoration: none; color: var(--accent); }
 .nav-links { list-style: none; display: flex; gap: 4px; margin: 0; padding: 0; }
 .nav-links a {
@@ -68,6 +69,7 @@ section { scroll-margin-top: var(--nav-h); }
   background: linear-gradient(160deg, var(--accent-dark) 0%, var(--accent) 100%);
   color: #fff;
 }
+.hero-logo { width: 72px; height: 72px; margin-bottom: 12px; }
 .hero h1 { font-size: 3rem; font-weight: 700; letter-spacing: .03em; margin-bottom: .25em; }
 .hero-subtitle { font-size: 1.3rem; margin: 0 auto 1.2em; opacity: .95; text-wrap: balance; }
 .hero-meta { font-size: 1.05rem; margin-bottom: .3em; }
