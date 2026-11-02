@@ -11,7 +11,7 @@ description: "SAFE-SEARCH workshop at ECIR 2027 on guardrails for multi-turn con
 
 # Event line shown under the title
 conference: ECIR 2027
-conference_url: "https://ecir2027.org"   # TODO: confirm URL
+conference_url: "https://www.ecir2027.co.uk/"
 location: "St Mary's Stadium, Southampton, UK"
 date: "21–25 March 2027"   # conference dates; exact workshop day TBD
 format: "Half-day, in-person workshop"
@@ -27,7 +27,7 @@ buttons:
     url: /submit/     # separate page, content in _data/submission.yml
 
 contact:
-  email: "safe-search-workshop@example.com"   # TODO
+  email: "safe-search-workshop@googlegroups.com"   # TODO
   # Optional social links; delete lines you don't need
   links:
     # - label: X / Twitter
@@ -50,8 +50,8 @@ nav:
 # GitHub Pages: if the site lives at https://USER.github.io/REPO/
 # set baseurl to "/REPO". For https://USER.github.io/ leave it "".
 # -------------------------------------------------------------
-baseurl: "/SAFE-SEARCH"
-url: ""
+baseurl: "/ecir-2027"
+url: "https://safe-search-workshop.github.io"
 
 markdown: kramdown
 exclude:
