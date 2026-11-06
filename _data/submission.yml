@@ -22,6 +22,7 @@ rules:
     items:
       - "Each submission will be reviewed by at least two members of the Program Committee."
       - "Review model will be double-blind"
+      - "Reciprocal reviewing policy: Each author of a submitted paper will be required to review at least one other submission."
       - "Accepted research papers may be presented orally or as posters, as determined by the Program Committee."
 
   - title: Presentation and publication
