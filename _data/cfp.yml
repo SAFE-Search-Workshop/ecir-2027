@@ -27,13 +27,13 @@ types:
     length: "Short (5–9 pages) or full (10–15 pages)"
     description: "Completed research presenting new methods, findings, evaluations, or empirical analyses relevant to safe and reliable conversational search."
   - name: Systems and applied papers
-    length: "Up to 6 pages"
+    length: "Short (5–9 pages) or full (10–15 pages)"
     description: "Implemented systems, methods, tools, datasets, benchmarks, or other applied contributions for safer and more trustworthy conversational search. We especially welcome systems deployed in real-world settings or being prepared for deployment, with emphasis on technical design, implementation, and evaluation."
   - name: Experience reports
-    length: "Up to 6 pages"
+    length: "Short (5–9 pages) or full (10–15 pages)"
     description: "Lessons from building, deploying, or evaluating conversational search systems. These may include incident analyses, production failures, red-teaming findings, operational trade-offs, and other practical insights, without requiring a novel system or method."
   - name: Position and vision papers
-    length: "Up to 6 pages"
+    length: "Short (5–9 pages) or full (10–15 pages)"
     description: "New research questions, conceptual frameworks, taxonomies, critiques of existing practices, emerging problem formulations, or proposals for future research directions."
 
 # Bullet notes below the table
