@@ -3,7 +3,7 @@ note: "All deadlines are 23:59 UTC-12:00 (AoE, Anywhere on Earth)."
 items:
   - { event: "Submissions open",           date: "2 January 2027" }
   - { event: "Paper submission deadline",  date: "15 January 2027" }
-  - { event: "Notification of acceptance", date: "15 February 2027" }
-  - { event: "Camera-ready deadline",      date: "1 March 2027" }
+  - { event: "Notification of acceptance", date: "23 February 2027" }
+  - { event: "Camera-ready deadline",      date: "9 March 2027" }
   - { event: "Conference",                 date: "21–25 March 2027" }
   - { event: "Workshop day",               date: "25 March 2027" }
