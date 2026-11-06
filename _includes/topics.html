@@ -2,7 +2,7 @@
 <section id="topics" class="section alt">
   <div class="container">
     <h2>Topics of Interest</h2>
-    {% if d.intro %}<p>{{ d.intro }}</p>{% endif %}
+    {% if d.intro %}{{ d.intro | markdownify }}{% endif %}
     <div class="grid grid-2">
       {% for t in d.themes %}
       <div class="card">

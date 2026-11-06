@@ -2,7 +2,7 @@
 <section id="cfp" class="section">
   <div class="container">
     <h2>Call for Papers</h2>
-    {% if d.intro %}<p>{{ d.intro }}</p>{% endif %}
+    {% if d.intro %}{{ d.intro | markdownify }}{% endif %}
     <div class="table-wrap">
       <table>
         <thead><tr><th>Type</th><th>Length</th><th>Description</th></tr></thead>
@@ -20,5 +20,6 @@
       {% endfor %}
     </ul>
     {% endif %}
+    {% if d.outro %}{{ d.outro | markdownify }}{% endif %}
   </div>
 </section>

@@ -143,8 +143,10 @@ th { font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; color:
 .page-header { background: linear-gradient(160deg, var(--accent-dark) 0%, var(--accent) 100%); color: #fff; padding: 48px 0 40px; }
 .page-header h1 { font-size: 2.2rem; margin: .3em 0 .2em; }
 .page-header p { margin: 0; opacity: .9; }
-.page-header .back { color: #fff; opacity: .85; font-size: .9rem; }
+.page-header .back { color: #fff; opacity: .85; font-size: .9rem; display: inline-flex; align-items: center; gap: .4em; }
+.page-header .back svg { flex: none; }
 h2.spaced { margin-top: 48px; }
+h3.spaced { margin-top: 40px; }
 .submit-box { margin-top: 40px; text-align: center; }
 .btn-solid { background: var(--accent); border-color: var(--accent); color: #fff; padding: 14px 32px; font-size: 1.05rem; }
 .btn-solid:hover { background: var(--accent-dark); }

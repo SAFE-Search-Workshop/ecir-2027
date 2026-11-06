@@ -1,0 +1,35 @@
+<section id="team" class="section">
+  <div class="container">
+    <h2>Team</h2>
+    <h3>Organizers</h3>
+    <div class="people">
+      {% for p in site.data.organizers %}
+      <div class="person">
+        {% if p.url %}<a href="{{ p.url }}">{% endif %}
+        {% include person.html p=p dir="organizers" %}
+        <div class="person-name">{{ p.name }}</div>
+        {% if p.url %}</a>{% endif %}
+        <div class="muted small">{{ p.affiliation }}</div>
+      </div>
+      {% endfor %}
+    </div>
+
+    {% if site.data.committee.size > 0 %}
+    <h3 class="spaced">Program Committee</h3>
+    <ul class="committee">
+      {% for p in site.data.committee %}
+      <li>{{ p.name }}{% if p.affiliation %} <span class="muted">({{ p.affiliation }})</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h3 id="contact" class="spaced">Contact</h3>
+    <p>Questions about the workshop? Email us at
+      <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>.</p>
+    {% if site.contact.links %}
+    <p class="links">
+      {% for l in site.contact.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
+    </p>
+    {% endif %}
+  </div>
+</section>

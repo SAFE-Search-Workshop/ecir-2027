@@ -41,9 +41,8 @@ nav:
   - { label: Dates,       id: dates }
   - { label: Program,     id: program }
   - { label: Speakers,    id: speakers }
-  - { label: Papers,      id: papers }
-  - { label: Organizers,  id: organizers }
-  - { label: Contact,     id: contact }
+  # - { label: Papers,      id: papers }
+  - { label: Team,        id: team }
   - { label: Submit,      url: /submit/ }
 
 # -------------------------------------------------------------

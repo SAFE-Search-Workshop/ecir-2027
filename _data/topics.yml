@@ -1,25 +1,38 @@
-# Topics of interest. Each theme has a title and a list of items.
-intro: >-
-  SAFE-SEARCH invites work across four complementary themes aligned with the SAFE framework,
-  with an emphasis on risks and interventions that emerge across multi-turn interactions.
+# Topics of interest. Each theme has a title and a list of items. Text fields support Markdown.
+intro: |-
+  SAFE-SEARCH welcomes research on how conversational search systems can remain safe, accountable,
+  faithful, and useful throughout an evolving interaction. We are particularly interested in work that
+  looks beyond individual prompts and responses to study how risks develop across dialogue, retrieval,
+  personalization, memory, generation, and tool use.
+
+  Topics include, but are not limited to:
 
 themes:
   - title: Safety and Robustness
     items:
-      - "**Evolving harmful intent:** harmful requests, jailbreaks, prompt injection, and adversarial behavior that develop or compound across turns."
-      - "**Context and memory risks:** failures introduced by dialogue history, persistent memory, cross-session information leakage, or accumulated context."
+      - "**Multi-turn attacks and evolving harmful intent:** attacks that unfold gradually through dialogue, including jailbreaks, intent obfuscation, adversarial prompting, and strategies that exploit information accumulated across turns."
+      - "**Security of retrieval and RAG pipelines:** prompt injection, retrieval or corpus poisoning, malicious or manipulated documents, adversarial sources, and defenses against unsafe information entering the conversational pipeline."
+      - "**Safety of tools and search agents:** unsafe planning or execution, inappropriate tool invocation, authorization and permission failures, cascading errors, and mechanisms for constraining agent actions."
+      - "**Conversational context and memory:** risks created by accumulated dialogue state, persistent or cross-session memory, context contamination, information leakage, and unsafe reuse of earlier interactions."
 
   - title: Accountability and Responsible Interaction
     items:
-      - "**Personalization and privacy over time:** responsible use of evolving user profiles, preferences, and conversational history."
-      - "**Sycophancy, over-reliance, and user autonomy:** cumulative influence across dialogue, including systems that increasingly reinforce user beliefs or preferences rather than remain grounded in evidence."
+      - "**Privacy and responsible personalization:** appropriate collection, retention, updating, and use of conversational histories, preferences, profiles, and memories."
+      - "**Privacy-aware training:** methods such as noising or anonymizing personal data to prevent models from memorizing or absorbing sensitive user information during training."
+      - "**Sycophancy, over-reliance, and selective exposure:** systems that repeatedly reinforce users' beliefs, assumptions, or preferences, and their effects on user autonomy and information access."
+      - "**Fairness and transparency:** identifying differential harms, hidden assumptions, and opaque decision-making that can emerge or intensify over the course of an interaction."
 
   - title: Faithfulness and Reliability
     items:
-      - "**Grounding across turns:** ensuring claims, corrections, and citations remain supported as evidence and conversational context evolve."
-      - "**Retrieval and source reliability over time:** handling conflicting, outdated, manipulated, or changing evidence across successive searches and responses."
+      - "**Grounding across conversations:** maintaining support for claims, summaries, corrections, and citations as retrieved evidence and conversational context change."
+      - "**Uncertain, conflicting, or changing evidence:** reasoning over disagreement between sources, outdated information, misinformation, manipulated evidence, and conflicts between retrieved and model-internal knowledge."
+      - "**Error propagation and recovery:** understanding how early retrieval, interpretation, or generation failures affect later turns and developing mechanisms for recognizing, correcting, and recovering from them."
 
   - title: Evaluation and Effective Intervention
     items:
-      - "**Multi-turn intervention strategies:** when to clarify, verify, re-search, correct, abstain, refuse, or restrict tool and agent actions as a dialogue evolves."
-      - "**Evaluation and deployment:** multi-turn benchmarks, red teaming, reliability of LLM-based judges, incident analyses, deployment lessons, and negative results."
+      - "**Limitations of current evaluation practices:** what existing datasets, benchmarks, metrics, and experimental setups fail to capture about conversational safety and reliability."
+      - "**What should we measure next:** overlooked behaviors, interaction-level risks, cumulative effects, recovery capabilities, and other properties that cannot be adequately assessed using single-turn evaluation."
+      - "**Biases, confounders, and controls:** dataset and benchmark biases, judge and annotator effects, model contamination, unrealistic attack assumptions, missing baselines, and experimental controls needed for credible conclusions."
+      - "**Evaluation methodology:** reliability and validity of LLM-based judges, human evaluation, adversarial testing, longitudinal evaluation, simulation, and methods for measuring safety alongside relevance, usefulness, latency, and user autonomy."
+      - "**Intervention and recovery strategies:** deciding when a system should clarify, retrieve additional evidence, verify information, correct itself, warn the user, abstain, refuse, or limit an agent action."
+      - "**Red teaming and deployment evidence:** realistic multi-turn stress tests, incident analyses, production failures, negative results, and lessons from deployed conversational systems."

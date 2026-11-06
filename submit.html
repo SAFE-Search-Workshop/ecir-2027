@@ -7,7 +7,7 @@ permalink: /submit/
 {% assign cfp = site.data.cfp %}
 <section class="page-header">
   <div class="container">
-    <a class="back" href="{{ '/' | relative_url }}">← Back to workshop</a>
+    <a class="back" href="{{ '/' | relative_url }}"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 8H3M7 4L3 8l4 4"/></svg>Back to workshop</a>
     <h1>Submission Guidelines</h1>
     <p>{{ site.short_title }} @ {{ site.conference }} · {{ site.location }}</p>
   </div>
@@ -55,7 +55,7 @@ permalink: /submit/
       {% if d.form_url != "" %}
       <a class="btn btn-solid" href="{{ d.form_url }}" target="_blank" rel="noopener">{{ d.form_label }}</a>
       {% else %}
-      <span class="btn btn-disabled">Submission form opens soon</span>
+      <span class="btn btn-disabled">Submission link opens soon</span>
       {% endif %}
     </div>
   </div>

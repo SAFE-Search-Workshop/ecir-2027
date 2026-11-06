@@ -1,9 +1,9 @@
 # Submission page (/submit/). Text fields support Markdown.
 # Paper types/page limits are reused from _data/cfp.yml; deadlines from _data/dates.yml.
 
-# Google Form link. While empty, the button shows "Submission form opens soon".
+# OpenReview link. While empty, the button shows "Submission link opens soon".
 form_url: ""
-form_label: "Submit via Google Form"
+form_label: "Submit via OpenReview"
 
 intro: >-
   We welcome submissions on safety, accountability, faithfulness, and evaluation in conversational
@@ -14,7 +14,8 @@ rules:
   - title: Format
     items:
       - "Page limits exclude references (see table above)."
-      - "Formatting template: **TBD**."
+      - "Papers must use the **CEURART single-column style**, per the [CEUR-WS submission guidelines](https://ceur-ws.org/HOWTOSUBMIT.html)."
+      - "LaTeX template: [Overleaf](https://www.overleaf.com/latex/templates/template-for-submissions-to-ceur-workshop-proceedings-ceur-ws-dot-org/wqyfdgftmcfw)."
       - "Submissions must be in PDF format and written in English."
 
   - title: Review
@@ -30,5 +31,5 @@ rules:
 
   - title: How to submit
     items:
-      - "Fill in the Google Form below with paper title, authors, contribution type, and upload your PDF."
-      - "Questions? See [Contact](../#contact) on the main page."
+      - "Submit via OpenReview: _link TBD_."
+      - "Questions? Email us at [safe-search-workshop@googlegroups.com](mailto:safe-search-workshop@googlegroups.com)."

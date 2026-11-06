@@ -1,24 +1,51 @@
 # Call for papers. Text fields support Markdown.
-intro: "We solicit the following contribution types:"
+intro: |-
+  Conversational search is becoming more capable, more personalized, and more action-oriented. Systems
+  can maintain context across long interactions, retrieve information from external sources, remember
+  user preferences, and increasingly invoke tools or perform actions on a user's behalf. These
+  capabilities also introduce new forms of risk.
+
+  A failure early in a conversation may affect later retrieval and generation. A seemingly harmless
+  sequence of requests may develop into harmful intent. Untrusted retrieved content may influence
+  subsequent reasoning or tool use. Personalization and memory may improve usefulness while also
+  introducing privacy, fairness, or over-reliance concerns. At the same time, safeguards must make
+  difficult decisions about when to answer, seek more information, verify evidence, correct an earlier
+  response, restrict an action, or decline a request.
+
+  **SAFE-SEARCH: Safety, Accountability, Faithfulness, and Evaluation in Conversational Search** aims to
+  bring together researchers and practitioners studying these challenges across information retrieval,
+  conversational systems, RAG, recommender systems, NLP, AI safety, security, and agentic systems.
+
+  We invite submissions that advance our understanding of safety and reliability in conversational
+  information access, including new methods, empirical studies, evaluations, datasets, benchmarks,
+  systems, deployment experiences, and forward-looking research perspectives.
+
+  We welcome the following contribution types:
 
 types:
   - name: Original research papers
-    length: "Short (up to 6 pages) or full (up to 12 pages)"
-    description: "Completed research on the design, behavior, evaluation, or use of conversational search systems. Accepted papers may be presented orally or as posters."
-  - name: Demo and system papers
+    length: "Short (5–9 pages) or full (10–15 pages)"
+    description: "Completed research presenting new methods, findings, evaluations, or empirical analyses relevant to safe and reliable conversational search."
+  - name: Systems and applied papers
     length: "Up to 6 pages"
-    description: "Implemented guardrail systems, evaluation frameworks, datasets, benchmarks, or tooling, with an emphasis on system design and technical capabilities."
+    description: "Implemented systems, methods, tools, datasets, benchmarks, or other applied contributions for safer and more trustworthy conversational search. We especially welcome systems deployed in real-world settings or being prepared for deployment, with emphasis on technical design, implementation, and evaluation."
   - name: Experience reports
     length: "Up to 6 pages"
-    description: "Lessons from building or evaluating conversational search systems, including incident analyses, production failures, red-teaming findings, and operational trade-offs."
+    description: "Lessons from building, deploying, or evaluating conversational search systems. These may include incident analyses, production failures, red-teaming findings, operational trade-offs, and other practical insights, without requiring a novel system or method."
   - name: Position and vision papers
     length: "Up to 6 pages"
-    description: "Research challenges, conceptual frameworks, taxonomies, emerging problem formulations, or well-supported positions intended to stimulate discussion."
+    description: "New research questions, conceptual frameworks, taxonomies, critiques of existing practices, emerging problem formulations, or proposals for future research directions."
 
 # Bullet notes below the table
 notes:
-  - "Page limits exclude references."
-  - "Submissions will be peer reviewed by at least two members of the Program Committee."
-  - "At least one author of each accepted contribution is expected to attend and present in person."
+  - "Page limits exclude references. All papers must use the [CEURART](https://ceur-ws.org/HOWTOSUBMIT.html#CEURART) single-column style."
+  - "Each submission will be reviewed by at least two members of the Program Committee."
+  - "At least one author of every accepted paper is expected to attend and present the work in person."
   - "We plan to pursue archival publication through CEUR Workshop Proceedings, subject to eligibility."
-  - "Formatting and submission instructions: see the [submission page](submit/)."
+  - "Formatting requirements and submission instructions: see the [submission page](submit/)."
+
+# Paragraph after the notes
+outro: >-
+  We especially encourage work that challenges current assumptions about how conversational safety
+  should be defined, measured, and evaluated, as well as research that reveals important failure modes
+  that existing benchmarks do not yet capture.
