@@ -21,7 +21,7 @@ rules:
   - title: Review
     items:
       - "Each submission will be reviewed by at least two members of the Program Committee."
-      - "Review model (single- or double-blind): **TBD**."
+      - "Review model will be double-blind"
       - "Accepted research papers may be presented orally or as posters, as determined by the Program Committee."
 
   - title: Presentation and publication
