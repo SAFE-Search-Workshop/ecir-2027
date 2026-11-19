@@ -22,7 +22,7 @@ rules:
     items:
       - "Each submission will be reviewed by at least two members of the Program Committee."
       - "Review model will be double-blind"
-      - "Reciprocal reviewing policy: Each author of a submitted paper will be required to review at least one other submission."
+      - "Reciprocal reviewing policy: Atleast one author of each submitted paper will be required to review at least one other submission."
       - "Accepted research papers may be presented orally or as posters, as determined by the Program Committee."
 
   - title: Presentation and publication
@@ -32,5 +32,5 @@ rules:
 
   - title: How to submit
     items:
-      - "Submit via OpenReview: _link TBD_."
+      - "Submit via OpenReview: https://openreview.net/group?id=ECIR/2027/Workshop/SAFE-SEARCH"
       - "Questions? Email us at [safe-search-workshop@googlegroups.com](mailto:safe-search-workshop@googlegroups.com)."
