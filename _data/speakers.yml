@@ -8,10 +8,10 @@
     Professor of Computer Science at UCL, where she leads the Web Intelligence Group. Her work spans
     information retrieval, conversational search, and evaluation.
 
-- name: To be announced
-  initials: "?"
+- name: Sumit Bhatia
   role: Industry Keynote
-  affiliation: ""
-  url:
+  affiliation: "Adobe Research"
+  url: https://www.sumitbhatia.net/
   photo:
-  bio:
+  bio: Research Manager at Adobe Research where he leads Information Retrieval and NLP Research. His works spans 
+  RAG and conversational AI, agentic systems, knowledge graphs, and multimodal retrieval.
