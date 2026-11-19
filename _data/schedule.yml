@@ -6,5 +6,5 @@ items:
   - { time: "09:40 – 10:10", title: "Spotlight talks from accepted contributions" }
   - { time: "10:10 – 10:30", title: "Coffee break", break: true }
   - { time: "10:30 – 11:15", title: "Poster session" }
-  - { time: "11:15 – 11:45", title: "Keynote II (Industry)", detail: "Sumit Bhatia, Adobe" }
+  - { time: "11:15 – 11:45", title: "Keynote II (Industry)", detail: "Sumit Bhatia, Adobe Research" }
   - { time: "11:45 – 12:30", title: "Invited panel and community discussion" }
