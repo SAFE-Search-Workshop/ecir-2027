@@ -32,7 +32,7 @@ rules:
       - "At least one author of each accepted contribution is expected to attend the workshop in person and present."
       - "We plan to publish accepted papers in CEUR Workshop Proceedings, subject to eligibility."
 
- - title: How to submit
+  - title: How to submit
   items:
     - "Submit via [OpenReview](https://openreview.net/group?id=ECIR/2027/Workshop/SAFE-SEARCH)."
     - "Questions? Email us at [safe-search-workshop@googlegroups.com](mailto:safe-search-workshop@googlegroups.com)."
