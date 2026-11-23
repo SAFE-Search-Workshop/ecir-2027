@@ -1,0 +1,10 @@
+# Reviewer signup page (/review/). Text fields support Markdown.
+
+form_url: "https://docs.google.com/forms/d/e/1FAIpQLScNGJ8iuGohwLQz9i1DCzp2ouzlshLyVFtG43LQRvjL7cMdXg/viewform"
+form_label: "Sign up to Review"
+
+intro: >-
+  Interested in reviewing for the SAFE-SEARCH Workshop at ECIR 2027?
+  We welcome researchers and practitioners working on conversational search,
+  information retrieval, AI safety, and evaluation to join our reviewer pool.
+  If you are interested, please sign up using the form below.
