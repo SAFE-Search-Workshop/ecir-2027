@@ -2,7 +2,7 @@
 # Paper types/page limits are reused from _data/cfp.yml; deadlines from _data/dates.yml.
 
 # OpenReview link. While empty, the button shows "Submission link opens soon".
-form_url: ""
+form_url: "https://openreview.net/group?id=ECIR/2027/Workshop/SAFE-SEARCH"
 form_label: "Submit via OpenReview"
 
 intro: >-
