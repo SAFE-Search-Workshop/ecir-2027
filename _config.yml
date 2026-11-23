@@ -39,6 +39,7 @@ nav:
   - { label: Topics,      id: topics }
   - { label: Call for Papers, id: cfp }
   - { label: Dates,       id: dates }
+  - { label: Reviewing,       id: review }
   - { label: Program,     id: program }
   - { label: Speakers,    id: speakers }
   # - { label: Papers,      id: papers }
