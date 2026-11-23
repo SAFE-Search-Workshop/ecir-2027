@@ -1,0 +1,22 @@
+
+{% assign d = site.data.review %}
+<section id="review" class="section">
+  <div class="container">
+    <h2>Interested in Reviewing?</h2>
+
+    {% if d.intro %}
+      {{ d.intro | markdownify }}
+    {% endif %}
+
+    {% if d.form_url %}
+    <p>
+      <a href="{{ d.form_url }}"
+         class="btn"
+         target="_blank"
+         rel="noopener noreferrer">
+        {{ d.form_label | default: "Sign up to Review" }}
+      </a>
+    </p>
+    {% endif %}
+  </div>
+</section>
