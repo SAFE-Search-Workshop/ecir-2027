@@ -9,14 +9,14 @@
     {% endif %}
 
     {% if d.form_url %}
-    <p>
-      <a href="{{ d.form_url }}"
-         class="btn"
+    <div class="submit-box">
+      <a class="btn btn-solid"
+         href="{{ d.form_url }}"
          target="_blank"
          rel="noopener noreferrer">
         {{ d.form_label | default: "Sign up to Review" }}
       </a>
-    </p>
+    </div>
     {% endif %}
   </div>
 </section>
